@@ -1,0 +1,33 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h4{
+    color:white;
+    font-size: 2em;
+    margin-bottom:1em;
+}
+
+.todoapp-cnt{
+    height: 100%;
+    border-radius: 6px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:600px;
+    min-height:550px;
+    padding:3em 2em;
+    background-color:rgb(178, 187, 238);
+    box-shadow: 0 3px 12px rgba(0,0,0,0.3);
+}

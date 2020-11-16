@@ -1,0 +1,37 @@
+.addtask-cnt{
+    display: flex;
+    justify-content: center;
+    width:80%;
+    padding:1em .5em;
+}
+
+.addtask-el{
+    width:100%;
+    height:3em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.addtask-el input{
+    width:78%;
+    height: 100%;
+    border:1px solid grey;
+}
+
+.addtask-el input:focus{
+    outline:solid 2px gray
+}
+
+.addtask-el button:focus{
+    outline:solid 2px gray
+}
+
+.addtask-el button{
+    cursor: pointer;
+    border:1px solid grey;
+    width:22%;
+    height: 100%;
+    background-color: rgb(53, 51, 51);
+    color:white;
+    border:none;
+
+}
